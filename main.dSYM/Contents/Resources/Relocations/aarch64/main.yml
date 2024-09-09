@@ -1,0 +1,14 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     main
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _create_suburb_data, symObjAddr: 0x0, symBinAddr: 0x100003188, symSize: 0x190 }
+  - { offsetInCU: 0x141, offset: 0x141, size: 0x8, addend: 0x0, symName: _create_suburb_data, symObjAddr: 0x0, symBinAddr: 0x100003188, symSize: 0x190 }
+  - { offsetInCU: 0x177, offset: 0x177, size: 0x8, addend: 0x0, symName: _compute_diff, symObjAddr: 0x190, symBinAddr: 0x100003318, symSize: 0x190 }
+  - { offsetInCU: 0x21D, offset: 0x21D, size: 0x8, addend: 0x0, symName: _getBit, symObjAddr: 0x320, symBinAddr: 0x1000034A8, symSize: 0x118 }
+  - { offsetInCU: 0x2B5, offset: 0x2B5, size: 0x8, addend: 0x0, symName: _create_node, symObjAddr: 0x438, symBinAddr: 0x1000035C0, symSize: 0xB0 }
+  - { offsetInCU: 0x307, offset: 0x307, size: 0x8, addend: 0x0, symName: _insert_node, symObjAddr: 0x4E8, symBinAddr: 0x100003670, symSize: 0x220 }
+  - { offsetInCU: 0x3C9, offset: 0x3C9, size: 0x8, addend: 0x0, symName: _search_node, symObjAddr: 0x708, symBinAddr: 0x100003890, symSize: 0x118 }
+  - { offsetInCU: 0x437, offset: 0x437, size: 0x8, addend: 0x0, symName: _free_patricia_trie, symObjAddr: 0x820, symBinAddr: 0x1000039A8, symSize: 0xFC }
+  - { offsetInCU: 0x45B, offset: 0x45B, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x91C, symBinAddr: 0x100003AA4, symSize: 0x30C }
+...
