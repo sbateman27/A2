@@ -5,7 +5,7 @@
         "type": "cppdbg",
         "request": "launch",
         "program": "${fileDirname}/${fileBasenameNoExtension}",
-        "args": ["tests/dataset_15.csv", "output.txt"],
+        "args": ["4", "tests/dataset_15.csv", "output.txt"],
         "stopAtEntry": false,
         "cwd": "${fileDirname}",
         "environment": [],
